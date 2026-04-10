@@ -4,7 +4,7 @@ import type { BookCondition, LocationDetails } from '../types';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   CheckCircle, ShieldCheck, 
-  Book as BookIcon, Scan, Search, Loader2, MapPin, Key, X
+  Book as BookIcon, Scan, Search, Loader2, MapPin, Key
 } from 'lucide-react';
 
 const UploadBook: React.FC = () => {

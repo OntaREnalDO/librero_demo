@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import type { Book, LocationDetails } from '../types';
 import { 
   BookOpen, Upload, Info, 
-  Users, LayoutGrid, Clock, ShieldCheck,
-  Heart, Target, Sparkles, ChevronRight, Gift, X, CheckCircle, Wallet, PlayCircle, ShoppingBag
+  LayoutGrid, Clock, ShieldCheck,
+  Heart, Target, Sparkles, ChevronRight, Gift, X, CheckCircle, Wallet, PlayCircle, ShoppingBag, ArrowRight
 } from 'lucide-react';
 
 const Dashboard: React.FC = () => {
