@@ -8,7 +8,7 @@ Librero aims to become the "Airbnb of Books." By leveraging local locker infrast
 ## 💎 Core Features
 - **Smart Locker Integration:** Every transaction provides a secure 3-digit access code and location.
 - **Credit-Based Economy:** 
-  - **Give to Get:** Earn 50 credits for every book you share.
+  - **Give to Get:** Earn 250 credits for every book you share.
   - **Affordable Rentals:** Rent any book for just 50 credits.
   - **Dynamic Ownership:** Buy books for 70-100 credits based on condition (Excellent/Good/Fair).
 - **Partner Network:** Integrated advertising space for bookshops and universities, with credits redeemable for partner discounts.

@@ -224,7 +224,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         status: 'pending_verification',
       };
       setBooks(prev => [newBook, ...prev]);
-      setUser(prev => prev ? { ...prev, credits: prev.credits + 50, uploadedBooks: [...prev.uploadedBooks, newBook.id] } : null);
+      setUser(prev => prev ? { ...prev, credits: prev.credits + 250, uploadedBooks: [...prev.uploadedBooks, newBook.id] } : null);
       addNotification('Book submitted for verification!', 'success');
       return true;
     }

@@ -69,7 +69,7 @@ const UploadBook: React.FC = () => {
         
         <div>
           <h1 className="text-5xl font-black text-gray-900 mb-4 tracking-tighter">Inventory Added!</h1>
-          <p className="text-xl text-gray-500 font-bold">AI matched the cover. You've earned <span className="text-primary-600">50 credits</span>.</p>
+          <p className="text-xl text-gray-500 font-bold">AI matched the cover. You've earned <span className="text-primary-600">250 credits</span>.</p>
         </div>
 
         <div className="bg-white p-10 rounded-[3rem] shadow-2xl border border-gray-100 space-y-8 max-w-md mx-auto">
@@ -154,7 +154,7 @@ const UploadBook: React.FC = () => {
 
             <button type="button" onClick={handleVerify} disabled={isVerifying} className="w-full bg-gray-900 text-white py-6 rounded-[2rem] font-black text-xl hover:bg-gray-800 transition-all shadow-xl active:scale-95 flex items-center justify-center gap-4 disabled:opacity-50">
               {isVerifying ? <Loader2 className="w-6 h-6 animate-spin" /> : <ShieldCheck className="w-6 h-6" />}
-              {isVerifying ? 'Analyzing Book...' : 'Verify & List (Earn 50c)'}
+              {isVerifying ? 'Analyzing Book...' : 'Verify & List (Earn 250c)'}
             </button>
           </motion.div>
         </div>
