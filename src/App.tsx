@@ -6,8 +6,6 @@ import Marketplace from './pages/Marketplace';
 import UploadBook from './pages/UploadBook';
 import Partners from './pages/Partners';
 import Login from './pages/Login';
-import Pitch from './pages/Pitch';
-import Admin from './pages/Admin';
 import Toast from './components/Toast';
 import { Book as BookIcon, LogOut, PlusCircle, LayoutDashboard, Store, Users, Presentation, ShieldAlert } from 'lucide-react';
 
